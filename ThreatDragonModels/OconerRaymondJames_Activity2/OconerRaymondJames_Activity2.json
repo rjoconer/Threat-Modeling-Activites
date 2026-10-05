@@ -37,6 +37,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -120,7 +121,6 @@
               ]
             },
             "id": "494ee57b-2e81-454d-9ea2-e17734eaa17f",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -370,7 +370,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Auth Verification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -384,16 +384,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Auth Verification"
             ],
-            "id": "1e3d018e-6c38-4c30-9261-4b5e2c234090",
+            "id": "5fa70a11-fbbd-4f57-8bd1-f505ae502c0c",
             "source": {
               "cell": "494ee57b-2e81-454d-9ea2-e17734eaa17f",
               "port": "e4a4eb80-1d83-4464-a80f-16bd22687aef"
             },
             "target": {
               "cell": "2744bc06-88f2-4102-8ee6-f692b3b5d323",
-              "port": "a844e49a-a61e-4a71-93e1-a61d68d4e209"
+              "port": "9c8b8b8b-e0e2-47ba-bf9b-e3ea9dc6e023"
             },
             "tools": {
               "items": [
@@ -464,6 +464,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -547,7 +548,6 @@
               ]
             },
             "id": "57e464d4-904b-4873-a47e-00695c798e3f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -578,6 +578,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -661,7 +662,6 @@
               ]
             },
             "id": "2744bc06-88f2-4102-8ee6-f692b3b5d323",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -698,6 +698,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -781,7 +782,6 @@
               ]
             },
             "id": "8c03f0e5-0f28-4aed-8c11-fcfe167bf3f2",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Store",
@@ -819,6 +819,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -902,7 +903,6 @@
               ]
             },
             "id": "5297194e-594f-47c2-a2a2-d10a7e9199ff",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Store",
