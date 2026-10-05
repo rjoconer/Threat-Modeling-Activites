@@ -289,8 +289,8 @@
             },
             "vertices": [
               {
-                "x": 230,
-                "y": 210
+                "x": 220,
+                "y": 200
               }
             ]
           },
@@ -341,12 +341,16 @@
             },
             "vertices": [
               {
-                "x": 170,
-                "y": 40
+                "x": 160,
+                "y": 30
               },
               {
-                "x": 290,
-                "y": 60
+                "x": 220,
+                "y": 30
+              },
+              {
+                "x": 280,
+                "y": 50
               }
             ]
           },
@@ -909,7 +913,7 @@
           },
           {
             "position": {
-              "x": 20,
+              "x": 10,
               "y": 80
             },
             "size": {
@@ -917,6 +921,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Browser Client"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1011,7 +1018,7 @@
             "id": "57e464d4-904b-4873-a47e-00695c798e3f",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Browser Client",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1019,6 +1026,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
